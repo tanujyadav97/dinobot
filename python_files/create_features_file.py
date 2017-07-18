@@ -1,0 +1,49 @@
+import pickle
+
+data=pickle.load(open("data_pickle.pkl","r"))
+
+key=data.keys()
+
+featuredict={}
+
+qwords=['which','whose','what','who','whom','to','whose','what','which','where','whither','whence','when','how','why','whether','whatsoever']
+arr2=['do','does','did',"don't","doesn't","didn't"]
+arr3=['has','have','had',"hasn't","haven't","hadn't"]
+arr4=['is','are','were']
+
+for i in key:
+    str=data[i]['sent']
+    arr=str.split(" ")
+    j=arr[0].lower()
+    fe1=0
+    fe2=0
+    fe3=0
+    fe4=0
+    fe5=0
+    if j in qwords:
+        fe1=1
+    else:
+        if j in arr2:
+            fe2=1
+        else:
+            if j in arr3:
+                fe3 = 1
+            else:
+                if j in arr4:
+                    fe4=1
+                else:
+                    if str.endswith('?'):
+                        fe5=1
+    temp={}
+    temp['fe1'] = fe1
+    temp['fe2'] = fe2
+    temp['fe3'] = fe3
+    temp['fe4'] = fe4
+    temp['fe5'] = fe5
+    temp['label'] = data[i]['isques']
+
+    featuredict[str]=temp
+
+output=open('features_pickle.pkl','wb')
+pickle.dump(featuredict,output)
+output.close()

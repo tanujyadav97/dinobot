@@ -1,0 +1,22 @@
+#chatshow{
+    border: 2px solid #000000;
+    border-radius: 10px;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+ul{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.type1{
+    text-align: start;
+    color: red;
+}
+
+.type2{
+    text-align: end;
+    margin-right: 10px;
+    color: blue;
+}

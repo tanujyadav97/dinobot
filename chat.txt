@@ -1,0 +1,47 @@
+2###my birthday is on 4th january
+1###Got it!
+
+2###forget birthday
+2###when is birthday?
+1###Sorry! I don't remember.
+
+2###birthday is on 4th january
+1###Got it!
+
+2###brothers birthday is on 26th september
+1###Got it!
+
+2###when is birthday
+1###2 results found.<>birthday is on 4th january<>brothers birthday is on 26th september<>
+2###when is meeting
+1###<>meeting is on 4th aug<>
+2###forget meeting
+1###1 memories deleted.<>("meeting is on 4th aug")<>
+2###when is meeting
+1###Sorry! I don't remember.<>
+2###meeting is on 4th aug
+
+1###Got it!<>
+2###when is the meeting
+1###<>meeting is on 4th aug<>
+2###forget meeting
+1###1 memories deleted.<>("meeting is on 4th aug")<>
+2###who r u
+1###Sorry! I don't remember.<>
+2###who are you
+1###I am DinoBot, the ChatBot, your intelligent friend<>
+2###who made you
+1###Tanuj Yadav, a student of NIT Delhi created me. He is Awesome.<>
+2###who made you
+1###
+2###who made you
+1###Tanuj Yadav, a student of NIT Delhi created me. He is Awesome.<>
+2###who are you
+1###I am DinoBot, the ChatBot, your intelligent friend<>
+2###who are you
+1###I am DinoBot, the ChatBot, your intelligent friend<>
+2###who are you
+1###I am DinoBot, the ChatBot, your intelligent friend<>
+2###who made you
+2###who made you
+1###Tanuj Yadav, a student of NIT Delhi created me. He is Awesome.<>
